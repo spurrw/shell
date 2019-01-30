@@ -1,0 +1,26 @@
+William Spurr
+
+==== Submission Files ====
+
+shell.c
+- source code for the shell
+
+README
+- this file
+
+==== Compiling Program and Running ====
+	You can compile my shell program by typing the command
+'gcc -o shell shell.c'
+
+	To run the shell program, type ./shell from the directory you placed
+the binary file in. Make sure it is executable by and use the command
+'chmod a+x shell' if needed.
+
+
+==== Challenges ====
+
+	The first challenge I encountered was how to remove a trailing '\n'
+from a string gotten from stdin by fgets. I found a solution at
+https://stackoverflow.com/questions/2693776/removing-trailing-newline-character-from-fgets-input using the function strcspn.
+
+
