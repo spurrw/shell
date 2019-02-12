@@ -3,25 +3,16 @@ ls -al
 showpid
 echo "hello"
 showpid
-ps aux
 ls -al
 showpid
 echo "hello"
 showpid
-ps aux
-ls -al
-showpid
-echo "hello"
-showpid
-ps aux
-ls -al
-showpid
-echo "hello"
-showpid
-ps aux
-ls -al
-showpid
-echo "hello"
-showpid
+cd ..
+sleep 1
+cd /home
+cd .
+sleep 1
+cd /home/will/Documents/climbing
+ls
 exit
 
