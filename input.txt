@@ -1,0 +1,27 @@
+ps aux
+ls -al
+showpid
+echo "hello"
+showpid
+ps aux
+ls -al
+showpid
+echo "hello"
+showpid
+ps aux
+ls -al
+showpid
+echo "hello"
+showpid
+ps aux
+ls -al
+showpid
+echo "hello"
+showpid
+ps aux
+ls -al
+showpid
+echo "hello"
+showpid
+exit
+
