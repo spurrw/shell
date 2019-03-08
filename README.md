@@ -1,4 +1,5 @@
 William Spurr
+OS Project 1 - Shell in C
 
 ==== Submission Files ====
 
@@ -16,6 +17,13 @@ README
 the binary file in. Make sure it is executable by and use the command
 'chmod a+x shell' if needed.
 
+	You can run any executable file from this shell by typing its name.
+The shell also has the following extra functions:
+
+showpid = shows the last 5 process IDs created by the shell
+
+cd = change directory and updates the PWD environment variable accordingly
+
 
 ==== Challenges ====
 
@@ -32,3 +40,6 @@ issues where strtok wasn'y returning me any tokenized output past the first
 token, or else I didn't know how to read it. I modified my strtok call loop
 with help from https://stackoverflow.com/questions/15472299/split-string-into-tokens-and-save-them-in-an-array . I'm not really sure how, but
 simplifying my loop using the example from that post made everything work.
+
+	The following website told me how to change what colors printf printed:
+http://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html
